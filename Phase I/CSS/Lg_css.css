@@ -1,0 +1,81 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(wallpaper.jpg);
+    background-size: cover;
+    color:#fff;
+    font-family: sans-serif;
+}
+h1{
+    margin: 30px;
+    text-align: center;
+}
+.login-box i{
+    width: 25px;
+    float: left;
+    text-align: center;
+}
+.login-page{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000000cc;
+    border-radius: 20px;
+    width: 700px;
+    height: 400px;
+}
+.login-box {    
+    overflow: hidden;
+    margin: 20px;
+    padding: 10px 0;
+    width: 70%;
+    font-size: 25px;
+    border-bottom: 2px solid rgb(59, 179, 95);
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.login-box input{
+    width: 93%;
+    float: left;
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+.botton{
+    font-size: 17px;
+    margin-top: 60px;
+    margin-left: 255px;
+    color: #fff;
+    background: none;
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(59, 179, 95);
+    cursor: pointer;
+}
+.botton:hover{
+    color: #fff;
+    background: #85929E;
+    opacity: 0.3;
+}
+.navbar{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+.navbar a{  
+    color: #FDFEFE;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #85929E;
+    border-radius: 30px;
+    padding: 5px;
+}
+.navbar #rg{
+    margin-right: 390px;
+}

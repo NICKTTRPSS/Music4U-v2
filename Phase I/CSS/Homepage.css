@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+}
+.navlog{
+    text-align: right;
+    margin: 10px;
+}
+.navlog a{
+    background-color: #5D6D7E;
+    padding: 5px;
+    margin: 10px;
+    color: #FDFEFE;
+    text-decoration: none;
+}
+.navlog a:hover{
+    background-color: #85929E;
+}
+.navbar{
+    background-color: #9e9fa1;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+.navbar a{  
+    color: #FDFEFE;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #85929E;
+}
+article{
+    text-align: right;
+    padding: 10px;
+}

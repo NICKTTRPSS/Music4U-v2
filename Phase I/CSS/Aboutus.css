@@ -1,0 +1,102 @@
+*{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-image: linear-gradient(to left, #4E9F3D , #D8E9A8);
+}
+footer div{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    box-shadow: 0 0 10px #666;
+}
+.nav1{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px #666;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #fff;
+}
+nav{
+    flex: 1;
+    padding-right: 30px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(54, 124, 81)
+}
+nav ul li a:hover{
+    background-color: #cdd6df;
+    padding: 10px;
+    border-radius: 20px;
+}
+.login{
+    text-align: right;
+}
+.login a{
+    text-decoration: none;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+}
+article h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 4px 4px #000000;
+}
+.column {
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+}
+.container {
+    width: 278px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.title{
+    color: grey;
+}
+.container p{
+    font-size: 15px;
+}
+footer{
+    background-color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 10px #666;
+    margin-top: 200px;
+}
+
