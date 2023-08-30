@@ -1,0 +1,77 @@
+
+.information{
+    text-align: center;
+}
+
+.user{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btnshow{
+    width: 120px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 80px;
+}
+
+.card{
+    border: 3px solid white;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+}
+
+.text{
+    margin: 20px;
+}
+
+.btndelete{
+    margin: 30px;
+    width: 100px;
+    height: 30px;
+}
+
+input[type=number], input[type=text]{
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 20px;
+}
+
+input[type=number]:focus, input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.btnadd{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    border-radius: 80px;
+}
+
+.music{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.MVbox{
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.btnupMV{
+    margin-left: 30px;
+}
+
+.btndelete{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 80px;
+}

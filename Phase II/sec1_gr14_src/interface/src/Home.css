@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(to right, #2c741e , #50c55f);
+}
+
+.imghp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    border-radius: 20px;
+    height: 60%;
+}
+
+.para1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+}
+h3{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 4px 4px #000000;
+    margin-top: 20px;
+}
+
+.text1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 40px;
+    text-shadow: 4px 4px #000000;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
